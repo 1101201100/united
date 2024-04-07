@@ -1,0 +1,58 @@
+.map-title {
+  color: #3e3e3e;
+  font-family: "Condensed";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.map-list {
+    display: flex;
+    row-gap: 8px;
+    flex-direction: column;
+}
+
+.map-insert {
+  width: 557px;
+  height: 93px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  color: inherit #2D2D2D;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.map-insert-big {
+  width: 557px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  font-family: "Roboto";
+}
+
+.map-buton {
+  color: #fff;
+ font-family: "Condensed";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 27px;
+  padding-bottom: 28px;
+  padding-right: 52px;
+  padding-left: 52px;
+  width: 218px;
+  height: 73px;
+  border-radius: 500px;
+  background: #fad34f;
+  margin-top: 23px;
+  border: none;
+}
