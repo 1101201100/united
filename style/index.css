@@ -10,6 +10,10 @@
 .map {
   padding-top: 170px;
   padding-bottom: 179px;
+  background-image: url(../image/good.webp), url(../image/hapy.webp);
+  background-repeat: no-repeat;
+  background-position-y: 544px, 23px;
+  background-position-x: 763px, 29px;
 }
 
 .map-list {
