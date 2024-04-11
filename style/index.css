@@ -11,10 +11,12 @@
   padding-top: 170px;
   padding-bottom: 179px;
   background-image: url(../image/good.webp), url(../image/hapy.webp),
-    url(../image/red-cartoon.png), url(../image/map.webp);
+    url(../image/red-cartoon.png), url(../image/map.webp),
+    url(../image/ellipse.webp), url(../image/cloud-1.webp),
+    url(../image/cloud-copy.webp), url(../image/cloud-biger.webp);
   background-repeat: no-repeat;
-  background-position-y: 544px, 23px, 586px, 0px;
-  background-position-x: 763px, 29px, 762px, 815px;
+  background-position-y: 544px, 23px, 586px, 0px, 20px, 400px, 120px, 727px;
+  background-position-x: 763px, 29px, 762px, 815px, 714px, 0px, 775px, 140px;
 }
 
 .map-list {
