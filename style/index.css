@@ -10,10 +10,11 @@
 .map {
   padding-top: 170px;
   padding-bottom: 179px;
-  background-image: url(../image/good.webp), url(../image/hapy.webp);
+  background-image: url(../image/good.webp), url(../image/hapy.webp),
+    url(../image/red-cartoon.png), url(../image/map.webp);
   background-repeat: no-repeat;
-  background-position-y: 544px, 23px;
-  background-position-x: 763px, 29px;
+  background-position-y: 544px, 23px, 586px, 0px;
+  background-position-x: 763px, 29px, 762px, 815px;
 }
 
 .map-list {
