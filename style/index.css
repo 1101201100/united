@@ -13,10 +13,15 @@
   background-image: url(../image/good.webp), url(../image/hapy.webp),
     url(../image/red-cartoon.png), url(../image/map.webp),
     url(../image/ellipse.webp), url(../image/cloud-1.webp),
-    url(../image/cloud-copy.webp), url(../image/cloud-biger.webp);
+    url(../image/cloud-copy.webp), url(../image/cloud-biger.webp),
+    url(../image/cloud-normal.webp), url(../image/cloud-left.webp),
+    url(../image/cloud-mini.webp), url(../image/cloud-mini-2.png),
+    url(../image/cloud-mini-3.png), url(../image/cloud-mini-4.png);
   background-repeat: no-repeat;
-  background-position-y: 544px, 23px, 586px, 0px, 20px, 400px, 120px, 727px;
-  background-position-x: 763px, 29px, 762px, 815px, 714px, 0px, 775px, 140px;
+  background-position-y: 544px, 23px, 586px, 0px, 20px, 400px, 80px, 727px,
+    590px, 185px, 650px, 110px, 210px, 746px;
+  background-position-x: 763px, 29px, 762px, 815px, 714px, 0px, 800px, 140px,
+    343px, 0px, 101px, 617px, 693px, 731px;
 }
 
 .map-list {
@@ -79,8 +84,13 @@
 .footer {
   border-top: 1px solid #d8d8d8;
   background-color: #fafafa;
-  padding-top: 170px;
-  padding-bottom: 170px;
+  padding-top: 74px;
+  padding-bottom: 110px;
+  background-image: url(../image/hapy.webp), url(../image/hapy-smyle.webp),
+    url(../image/red-cartoon.png);
+  background-repeat: no-repeat;
+  background-position-x: 1350px, 1234px, 15px;
+  background-position-y: 40px, 0px, -43px;
 }
 
 .footer-icon {
@@ -92,5 +102,5 @@
 .footer-list {
   display: flex;
   gap: 20px;
-  padding-left: 365px;
+  padding-left: 200px;
 }
