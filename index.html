@@ -27,14 +27,16 @@
     <main>
       <section class="map">
         <div class="container">
+          <form action="">
           <ul class="map-list">
             <h1 class="map-title">Reach out to us!</h1>
             <li class="map-iteam">
-              <input type="text" class="map-insert" placeholder="Your name*" />
+              <input type="text" required class="map-insert" placeholder="Your name*" />
             </li>
             <li class="map-iteam">
               <input
                 type="email"
+                required
                 class="map-insert"
                 placeholder="Your e-mail*"
               />
@@ -42,6 +44,7 @@
             <li class="map-iteam">
               <input
                 type="tel"
+                required
                 class="map-insert-big"
                 required
                 placeholder="Your message*"
@@ -49,6 +52,7 @@
             </li>
           </ul>
           <button class="map-buton" type="submit">Send message</button>
+        </form>
         </div>
       </section>
     </main>
